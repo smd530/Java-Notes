@@ -25,7 +25,7 @@ public interface Runnable {
 ## Demo
 
 ```java
-		/**
+   /**
      * @FunctionalInterface 可写可不写 只要保证接口里只有一个方法
      *
      */
@@ -54,7 +54,7 @@ public interface Runnable {
     }    
 
 
-		public static void main(String[] args) {
+    public static void main(String[] args) {
     //        Foo foo = new Foo() {
     //            @Override
     //            public void sayHello() {
