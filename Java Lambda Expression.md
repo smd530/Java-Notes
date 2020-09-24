@@ -31,7 +31,7 @@ public interface Runnable {
      */
     @FunctionalInterface
     interface Foo {
-		//        public void sayHello();
+    //	public void sayHello();
 
         public int add(int x, int y);
 
@@ -55,26 +55,26 @@ public interface Runnable {
 
 
     public static void main(String[] args) {
-    //        Foo foo = new Foo() {
-    //            @Override
-    //            public void sayHello() {
-    //
-    //                System.out.println("test....test");
-    //
-    //            }
-    //
-    //            @Override
-    //            public int add(int x, int y) {
-    //                return 0;
-    //            }
-    //        };
-    //
-    //        foo.sayHello();
+//        Foo foo = new Foo() {
+//            @Override
+//            public void sayHello() {
+//
+//                System.out.println("test....test");
+//
+//            }
+//
+//            @Override
+//            public int add(int x, int y) {
+//                return 0;
+//            }
+//        };
+//
+//        foo.sayHello();
 
-    //        Foo foo = () -> {
-    //            System.out.println("test....Lambda");
-    //        };
-    //        foo.sayHello();
+//        Foo foo = () -> {
+//            System.out.println("test....Lambda");
+//        };
+//        foo.sayHello();
 
 
         Foo foo = (int x, int y) -> {
